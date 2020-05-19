@@ -3,27 +3,27 @@ exports.seed = function (knex) {
 
   const users = [
     {
-      username: "groot",
-      password: "Iamgroot!",
+      username: "John",
+      password: "123password",
       role: 1,
     },
     {
       username: "admin",
-      password: "keepitsecret,keepitsafe.",
+      password: "admin123.",
       role: 1,
     },
     {
-      username: "me",
-      password: "changethepass",
+      username: "David",
+      password: "123david",
       role: 2,
     },
     {
-      username: "nobody",
-      password: "hasnorole",
+      username: "Luis",
+      password: "teacher123",
     },
     {
-      username: "notme",
-      password: "hasnorole",
+      username: "lambda",
+      password: "123321qwe",
     },
   ];
 
